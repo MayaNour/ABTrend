@@ -1,0 +1,24 @@
+#show-product{
+    margin-top: 4%;
+}
+
+#small-images-div{
+    margin-right: -3%;
+}
+
+#small-images-div img{
+    width: 60%;
+    height: 30%;
+    margin-bottom: 10%;
+    margin-left: 3%;
+}
+
+#main-image{
+    height: 100%;
+}
+
+#buy-product{
+    height: 100%;
+    line-height: 100%;
+}
+
