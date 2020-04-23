@@ -75,7 +75,7 @@
                         <b>ABTrend Faro leather toe loop flat sandals</b>
                     </div>
                 </div>
-                <div id="show-product" class="row align-items-stretch">
+                <section id="show-product" class="row">
                     <div id="small-images-div" class="col-1 offset-1">
                         <div class="row">
                             <img src="images/1.JPG" alt="sandal_1" onclick="showImage(this);">
@@ -101,30 +101,46 @@
                         <p class="text-danger">New Season</p>
                         <p><b>Colours</b></p>
                         <div class="row">
-                            <div class="bg-primary"></div>
-                            <div></div>
-                            <div></div>
+                            <div class="colours-div"></div>
+                            <div class="colours-div"></div>
+                            <div class="colours-div"></div>
                         </div>
-                        <p>Size</p>
-                        <select id="cars">
-                            <option value="volvo">Choose your size</option>
-                            <option value="saab">37</option>
-                            <option value="vw">38</option>
-                            <option value="audi">39</option>
-                        </select>
-                        <div>
-                            <button class="btn btn-danger">Add to Cart</button>
-                            <a><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                width="24" height="24"
-                                viewBox="0 0 172 172"
-                                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M118.25,21.5c-20.7475,0 -32.25,14.97833 -32.25,14.97833c0,0 -11.5025,-14.97833 -32.25,-14.97833c-21.77233,0 -39.41667,17.64433 -39.41667,39.41667c0,29.89217 35.20267,58.85983 45.01383,68.01167c11.30183,10.535 26.65283,24.08 26.65283,24.08c0,0 15.351,-13.545 26.65283,-24.08c9.81117,-9.15183 45.01383,-38.1195 45.01383,-68.01167c0,-21.77233 -17.64433,-39.41667 -39.41667,-39.41667zM106.1455,115.455c-1.2685,1.14667 -2.37217,2.14283 -3.268,2.98133c-5.38217,5.01667 -11.74617,10.7715 -16.8775,15.3725c-5.13133,-4.601 -11.5025,-10.363 -16.8775,-15.3725c-0.903,-0.8385 -2.00667,-1.84183 -3.268,-2.98133c-10.17667,-9.19483 -37.18783,-33.61883 -37.18783,-54.53833c0,-13.83167 11.25167,-25.08333 25.08333,-25.08333c13.0935,0 20.683,9.1375 20.88367,9.374l11.36633,12.126l11.36633,-12.126c0.07167,-0.09317 7.79017,-9.374 20.88367,-9.374c13.83167,0 25.08333,11.25167 25.08333,25.08333c0,20.9195 -27.01117,45.3435 -37.18783,54.53833z"></path></g></g></svg></a>
+                        <p><b>Size</b></p>
+                        <div class="dropdown">
+                            <button id="sizebtn" onclick="openDropList()" class="dropbtn">Choose your size <img width="15px" height="15px" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIuMDExIDUxMi4wMTEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMi4wMTEgNTEyLjAxMTsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTUwNS43NTUsMTIzLjU5MmMtOC4zNDEtOC4zNDEtMjEuODI0LTguMzQxLTMwLjE2NSwwTDI1Ni4wMDUsMzQzLjE3NkwzNi40MjEsMTIzLjU5MmMtOC4zNDEtOC4zNDEtMjEuODI0LTguMzQxLTMwLjE2NSwwICAgIHMtOC4zNDEsMjEuODI0LDAsMzAuMTY1bDIzNC42NjcsMjM0LjY2N2M0LjE2LDQuMTYsOS42MjEsNi4yNTEsMTUuMDgzLDYuMjUxYzUuNDYyLDAsMTAuOTIzLTIuMDkxLDE1LjA4My02LjI1MWwyMzQuNjY3LTIzNC42NjcgICAgQzUxNC4wOTYsMTQ1LjQxNiw1MTQuMDk2LDEzMS45MzMsNTA1Ljc1NSwxMjMuNTkyeiIgZmlsbD0iIzAwMDAwMCIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></button>
+                            <div id="sizeDropdown" class="dropdown-content">
+                              <a href="#" onclick="selectItem(this)">37</a>
+                              <a href="#" onclick="selectItem(this)">38</a>
+                              <a href="#" onclick="selectItem(this)">39</a>
+                            </div>
                         </div>
+                        
+                        <!-- <select id="size">
+                            <option value="hide">Choose your size</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                        </select> -->
                         <div class="d-flex">
-                            <p>Free Delivery</p>
-                            <p>Free Return</p>
+                            <button class="dropbtn addbtn">Add to Cart</button>
+                            <button class="dropbtn likebtn">
+                              <svg class="bi bi-heart" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 01.176-.17C12.72-3.042 23.333 4.867 8 15z" clip-rule="evenodd"/>
+                              </svg>
+                            </button>
+                        </div>
+                        <div class="d-flex justify-content-start">
+                            <div class="d-flex" style="width: 30%;">
+                                <img class="mx-auto buy-product-rules-images" src="images/free-delivery.svg" alt="">
+                                <p class="buy-product-rules">Free Delivery</p>
+                            </div>
+                            <div class="d-flex" style="width: 30%;">
+                                <img class="mx-auto buy-product-rules-images" src="images/free-return.svg" alt="">
+                                <p class="buy-product-rules">Free Return</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
                 <section id="product-details" class="row">
                     <div id="product-details-first-part" class="col-sm-6">
