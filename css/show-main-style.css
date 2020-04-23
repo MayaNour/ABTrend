@@ -18,17 +18,60 @@
 }
 
 #buy-product{
-    /* height: 100%; */
     line-height: 100%;
 }
 
-.rules-images{
-    width: 2em;
-    height: 2em;
+
+#product-details{
+    margin: auto;
+    height: 400px;
+    background-color: #efefef;
+    border: 4px solid black;
 }
 
-#rules-section{
-    /* padding: auto;  */
+#product-details-first-part{
+    border: 4px solid black;
+    
+}
+
+.product-details-tabs{
+    margin-top: 3%;
+    padding-left: 10%;
+    background-color: #efefef !important;
+    color: black !important;
+}
+
+#product-details-second-part{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.other-categories{
+    height: 300px;
+}
+
+.other-categories-images{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#other-categories h5{
+    margin-top: 5%;
+    font-family: "Touche Bold";
+}
+
+#other-categories div{
+    margin-top: auto;
+    padding: 1%;
+    /* width: 50%; */
+}
+
+
+.rules-images{
+    width: 3em;
+    height: 3em;
 }
 
 #rules-section div{
@@ -54,33 +97,3 @@
     /* margin-left: 1px;
     margin-right: 1px; */
 }
-
-.other-categories-images{
-    width: 23em;
-    height: 23em;
-}
-
-#other-categories{
-    padding: auto;
-}
-
-#other-categories h5{
-    margin-top: 5%;
-    font-family: "Touche Bold";
-}
-
-#other-categories div{
-    margin-top: 2%;
-    padding: 1%;
-    width: 50%;
-}
-
-#other-categories-first-part-image{
-    /* border: 2px solid black;
-    padding: 25px;
-    background: url(sport-shoe.JPG);
-    background-repeat: no-repeat;
-    background-size: auto; */
-}
-
-

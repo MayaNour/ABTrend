@@ -128,56 +128,60 @@
 
                 <section id="product-details" class="row">
                     <div id="product-details-first-part" class="col-sm-6">
-                        <div class="w3-bar w3-black">
-                            <!-- <button class="w3-bar-item w3-button"></button> -->
-                            <button class="w3-bar-item w3-button" onclick="openTab('description')">Description</button>
-                            <button class="w3-bar-item w3-button" onclick="openTab('delivery')">Delivery</button>
-                            <button class="w3-bar-item w3-button" onclick="openTab('reviews')">Reviews</button>
-                          </div> 
-                        <div id="description" class="tab">
-                            <h4 class="font-weight-bold">Prodcut Detail</h4>
-                            <p>Shoe by ABTrend</p>
-                            <ul>
-                                <li>Sweet looks from the ground up</li>
-                                <li>Slip-on style</li>
-                                <li>Toe-loop detail</li>
-                                <li>Flat sole</li>
-                            </ul>
-                            <h4 class="font-weight-bold">Description</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nunc erat, 
-                               tempor sit amet mollis sit amet, scelerisque et ipsum. 
-                               Suspendisse tincidunt in nunc in pharetra. Proin at sem urna.</p>
-                          </div>
-                          
-                          <div id="delivery" class="tab" style="display:none">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nunc erat, 
+                        <div>
+                            <div class="w3-bar w3-black product-details-tabs">
+                                <!-- <button class="w3-bar-item w3-button"></button> -->
+                                <button class="w3-bar-item w3-button" onclick="openTab('description')">Description</button>
+                                <button class="w3-bar-item w3-button" onclick="openTab('delivery')">Delivery</button>
+                                <button class="w3-bar-item w3-button" onclick="openTab('reviews')">Reviews</button>
+                            </div> 
+                            <div id="description" class="tab product-details-tabs">
+                                <h4 class="font-weight-bold">Prodcut Detail</h4>
+                                <p>Shoe by ABTrend</p>
+                                <ul>
+                                    <li>Sweet looks from the ground up</li>
+                                    <li>Slip-on style</li>
+                                    <li>Toe-loop detail</li>
+                                    <li>Flat sole</li>
+                                </ul>
+                                <h4 class="font-weight-bold">Description</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nunc erat, 
                                 tempor sit amet mollis sit amet, scelerisque et ipsum. 
                                 Suspendisse tincidunt in nunc in pharetra. Proin at sem urna.</p>
-                          </div>
-                          
-                          <div id="reviews" class="tab" style="display:none">
-                            <h5 class="font-weight-bold">User name</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <h5 class="font-weight-bold">User name</h5>
-                            <p>scelerisque et ipsum.</p>
-                            <h5 class="font-weight-bold">User name</h5>
-                            <p>Suspendisse tincidunt in nunc in pharetra. Proin at</p>
-                          </div>
+                            </div>
+                            
+                            <div id="delivery" class="tab product-details-tabs" style="display:none">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nunc erat, 
+                                    tempor sit amet mollis sit amet, scelerisque et ipsum. 
+                                    Suspendisse tincidunt in nunc in pharetra. Proin at sem urna.</p>
+                            </div>
+                            
+                            <div id="reviews" class="tab product-details-tabs" style="display:none">
+                                <h5 class="font-weight-bold">User name</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <h5 class="font-weight-bold">User name</h5>
+                                <p>scelerisque et ipsum.</p>
+                                <h5 class="font-weight-bold">User name</h5>
+                                <p>Suspendisse tincidunt in nunc in pharetra. Proin at</p>
+                            </div>
+                        </div>
                     </div>
-                    <div id="product-details-second-part" class="col-sm-6"></div>
+                    <div id="product-details-second-part" class="col-sm-6">
+                        <img class="mx-auto d-block" src="images/1.JPG" alt="" >
+                    </div>
                 </section>
 
                 <section id="other-categories" class="row">
-                    <div id="other-categories-first-part" class="text-center d-flex flex-column align-items-center">
-                      <img class="mx-auto d-block other-categories-images" src="images/sport-shoe.JPG" alt="" style="width:100%">    
+                    <div id="other-categories-first-part" class="text-center col-sm-6 d-flex flex-column align-items-center">
+                      <img class="mx-auto d-block other-categories-images" src="images/sport-shoe.JPG" alt="">    
                       <div class="text-center">
                         <h5><b>SPORT SHOES</b></h5>
                         <p>Nature Green Sport Shoe & More</p>
                         <button type="button" class="btn btn-dark btn-sm">Shop now</button>
                       </div>
                     </div>
-                    <div id="other-categories-second-part" class="text-center d-flex flex-column align-items-center">
-                      <img class="mx-auto d-block other-categories-images" src="images/causal-shoe.JPG" alt="" style="width:100%">
+                    <div id="other-categories-second-part" class="text-center col-sm-6 d-flex flex-column align-items-center">
+                      <img class="mx-auto d-block other-categories-images" src="images/causal-shoe.JPG" alt="">
                       <div class="text-center">
                         <h5><b>CLASSICAL SHOES</b></h5>
                         <p>New Season Classic & More</p>
