@@ -85,30 +85,33 @@
     display: block;
   }
 
-  .show {display: block;}
+  .show {
+      display: block;
+    }
 
 #product-details{
-    height: 400px;
-    background-color: #efefef;
-    border: 4px solid black;
-    margin-top: 10%;
+    /* overflow: auto; */
+    /* background-color: #efefef; */
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #product-details-first-part{
-    border: 4px solid black;
     
+    background-color: #efefef !important;
 }
 
 .product-details-tabs{
-    margin-top: 3%;
+    padding-top: 3%;
     padding-left: 8%;
     background-color: #efefef !important;
     color: black !important;
 }
 
 #product-details-second-part{
-    width: 100%;
-    object-fit: cover;
+    /* width: 100%; */
+    /* background-image: url(/images/sport-shoe.JPG); */
+    /* object-fit: cover; */
 }
 
 .similar-products-images{
