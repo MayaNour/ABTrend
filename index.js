@@ -1,9 +1,11 @@
+// Expand Images into the main image 
 function showImage(imgs) {
     var expandImg = document.getElementById("expandedImg");
     expandImg.src = imgs.src;
     expandImg.parentElement.style.display = "block";
   }
 
+  // select tab
   function openTab(tabName) {
     var i;
     var x = document.getElementsByClassName("tab");
@@ -18,6 +20,7 @@ function showImage(imgs) {
     document.getElementById(tabName + "Btn").style.color = "#ff3b3b"
   }
 
+  //click dropdown to select size
   function openDropList() {
     document.getElementById("sizeDropdown").classList.toggle("show");
   }
@@ -36,6 +39,7 @@ window.onclick = function(event) {
   }
 }
 
+// show the selected size on the button 
 function selectItem(optionValue){
   document.querySelector("#sizebtn").textContent = optionValue.text;
 }

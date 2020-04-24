@@ -2,9 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial;
 }
 
+/* ---- header style ---- */
 header div{
     padding-left: 7%;
     padding-right: 7%;
@@ -64,30 +64,9 @@ header a:hover{
     margin-bottom: 1em;
 }
 
+/* ---- end header style ---- */
 
-#contact {
-    margin-top: 5%;
-    border-top: 1px solid white;
-    background-color: #ededed;
-    padding-left: 7%;
-    padding-right: 7%;
-}
-
-#contact div {
-    height: 221px;
-}
-  
-#contact a:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-footer{
-    padding-left: 7%;
-    color: white;
-    background-color: black;
-}
-
+/* ---- main showing product section  ---- */
 #show-product{
     margin-top: 4%;
     height: 300px;
@@ -140,24 +119,23 @@ footer{
     cursor: pointer;
     width: 50%;
     margin-bottom: 2%; 
-  }
+}
 
-  .dropdown {
+.dropdown {
     position: relative;
-    /* display: inline-block; */
-  }
+}
 
-  .addbtn{
+.addbtn{
     background-color: #ff3b3b;
     color: white;
     margin-right: 3%;
-  }
+}
 
-  .likebtn{
+.likebtn{
     width: 12%;
-  }
+}
 
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
@@ -166,22 +144,23 @@ footer{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     width: 50%;
-  }
+}
 
-  .dropdown-content a {
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
+}
 
-  .show {
+.show {
       display: block;
-    }
+}
 
+/* ---- end main showing product section  ---- */
+
+/* ---- product details section  ---- */
 #product-details{
-    /* overflow: auto; */
-    /* background-color: #efefef; */
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -191,29 +170,25 @@ footer{
 }
 
 #product-details-first-part{
-    
     background-color: #efefef !important;
 }
 
 .product-details-tabs{
-    /* padding-top: 3%;
-    padding-left: 8%; */
     padding: 3% 8% 0 8%;
     background-color: #efefef !important;
     color: black !important;
 }
+/* ---- end product details section  ---- */
 
-#product-details-second-part{
-    /* width: 100%; */
-    /* background-image: url(/images/sport-shoe.JPG); */
-    /* object-fit: cover; */
-}
-
+/* ---- similar products section  ---- */
 .similar-products-images{
     height: 200px;
     width: 100%;
 }
 
+/* ---- end similar products section  ---- */
+
+/* ---- other categories section  ---- */
 .other-categories{
     height: 300px;
 }
@@ -233,6 +208,9 @@ footer{
     padding: 1%;
 }
 
+/* ---- end other categories section  ---- */
+
+/* ---- rules section  ---- */
 .rules-images{
     width: 3em;
     height: 3em;
@@ -246,7 +224,6 @@ footer{
     width: 32%;
 }
 
-
 #rules-section h5{
     margin-top: 8%;
     font-family: "Touche Bold";
@@ -256,8 +233,30 @@ footer{
     font-family: "Touche Light";
     font-size: 14px;
 }
+/* ---- end rules section  ---- */
 
-#rules-section-second-part{
-    /* margin-left: 1px;
-    margin-right: 1px; */
+/* ---- footer style ---- */
+#contact {
+    margin-top: 5%;
+    border-top: 1px solid white;
+    background-color: #ededed;
+    padding-left: 7%;
+    padding-right: 7%;
 }
+
+#contact div {
+    height: 221px;
+}
+  
+#contact a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+footer{
+    padding-left: 7%;
+    color: white;
+    background-color: black;
+}
+/* ---- end footer style ---- */
+
