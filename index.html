@@ -17,21 +17,20 @@
     <body>
         <div>
             <header>
-                <nav id="first-nav" class="row">
+                <div id="first-nav" class="row">
                     <div class="col-9">
                         Support &nbsp;<a href="#">contact@abtrend.com</a>
                     </div>
                     <div id="first-nav-second-item" class="col-3 d-flex justify-content-between">    
                         <div>
-                            <!-- <img src="https://img.icons8.com/color/24/000000/great-britain.png"/>  -->
                             English
                         </div>
                         <a href="#">Wishlist</a>
                         <a herf="#">Contact</a>
                         <a href="#">Privacy Policy</a>
                     </div>
-                </nav>
-                <nav id="second-nav" class="row">              
+                </div>
+                <div id="second-nav" class="row">              
                     <div class="col-3 d-flex justify-content-between">
                         <a href="#"><b>AB</b>TREND</a>
                         <a class="" href="#">WOMEN</a>
@@ -53,8 +52,8 @@
                             viewBox="0 0 172 172"
                             style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M86,21.5c-15.83117,0 -28.66667,12.8355 -28.66667,28.66667c0,15.83117 12.8355,28.66667 28.66667,28.66667c15.83117,0 28.66667,-12.8355 28.66667,-28.66667c0,-15.83117 -12.8355,-28.66667 -28.66667,-28.66667zM86,35.83333c7.90483,0 14.33333,6.4285 14.33333,14.33333c0,7.90483 -6.4285,14.33333 -14.33333,14.33333c-7.90483,0 -14.33333,-6.4285 -14.33333,-14.33333c0,-7.90483 6.4285,-14.33333 14.33333,-14.33333zM63.14225,103.14681c-20.1885,4.472 -41.64225,14.27902 -41.64225,29.43652v17.91667h129v-17.91667c0,-15.1575 -21.45375,-24.96452 -41.64225,-29.43652c-5.23167,6.95883 -13.48375,11.51986 -22.85775,11.51986c-9.374,0 -17.62608,-4.56102 -22.85775,-11.51986zM58.64909,119.08985c7.62533,6.37833 17.18858,9.91015 27.35091,9.91015c10.16233,0 19.72558,-3.53183 27.35091,-9.91015c16.13217,4.7945 22.81576,11.25032 22.81576,13.49349v3.58333h-100.33333v-3.58333c0,-2.24317 6.68359,-8.69899 22.81576,-13.49349z"></path></g></g></svg></a>
                     </div>
-                </nav>
-                <nav id="third-nav" class="row">
+                </div>
+                <div id="third-nav" class="row">
                     <div class="col-12">    
                         <a href="#">Discount Sales</a>
                         <a href="#">New</a>
@@ -64,10 +63,10 @@
                         <a href="#">Sport</a>
                         <a href="#">Premium</a>
                     </div>
-                </nav>
-                <nav id="fourth-nav" class="row">
+                </div>
+                <div id="fourth-nav" class="row">
                     <div class="col-6">GET OFF %20 LAST SEASON SPORT WEARS</div>
-                </nav>
+                </div>
             </header>
             <div id="main" class="container">
                 <div class="row">
@@ -135,14 +134,14 @@
                     </div>
                 </section>
 
-                <section id="product-details" class="d-flex">
+                <section id="product-details" class="d-flex justify-content-center">
                     <div id="product-details-first-part" class="">
                         <div>
                             <div class="w3-bar w3-black product-details-tabs">
                                 <!-- <button class="w3-bar-item w3-button"></button> -->
-                                <button class="w3-bar-item w3-button" onclick="openTab('description')">Description</button>
-                                <button class="w3-bar-item w3-button" onclick="openTab('delivery')">Delivery</button>
-                                <button class="w3-bar-item w3-button" onclick="openTab('reviews')">Reviews</button>
+                                <button id="descriptionBtn" class="w3-bar-item w3-button" onclick="openTab('description')">Description</button>
+                                <button id="deliveryBtn" class="w3-bar-item w3-button" onclick="openTab('delivery')">Delivery</button>
+                                <button id="reviewsBtn" class="w3-bar-item w3-button" onclick="openTab('reviews')">Reviews</button>
                             </div> 
                             <div id="description" class="tab product-details-tabs">
                                 <h4 class="font-weight-bold">Prodcut Detail</h4>
@@ -273,6 +272,51 @@
                   </section>
             </div>
         </div>
+        <section id="contact">
+          <div class="row">
+            <div class="col-4 first">
+              <h3><b>AB</b>Trend</h3>
+              <p>PO College Street 234
+                <br>
+                United Kingdom
+                <br>
+                <b>+1 710 555 1234</b>
+              </p>
+            </div>
+    
+            <div class="col-3">
+              <h4>Help & Contact</h4>
+              <p>
+                <a href="#" target="_blank">All help topic</a><br>
+                <a href="#" target="_blank">Invoice Payment</a><br>
+                <a href="#" target="_blank">Delivery Information</a>
+              </p>
+            </div>
+    
+            <div class="col-2">
+              <h4>Voucher</h4>
+              <p>
+                <a href="#" target="_blank">YouTube</a><br>
+                <a href="#" target="_blank">Facebook</a><br>
+                <a href="#" target="_blank">Twitter</a>
+              </p>
+            </div>
+
+            <div class="col-3">
+              <h4>ABTrend Business</h4>
+              <p>
+                <a href="#" target="_blank">Jobs</a><br>
+                <a href="#" target="_blank">Partner Program</a><br>
+                <a href="#" target="_blank">ABTrend Marketing Services</a>
+                <a href="#" target="_blank">Marketing Requests</a>
+              </p>
+            </div>
+          </div><!-- .wrapper -->
+        </section>
+    
+        <footer>
+          All prices include VAT.
+        </footer>
         <script src="index.js"></script>
     </body>
 </html>

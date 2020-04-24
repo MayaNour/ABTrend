@@ -96,14 +96,19 @@
     margin-bottom: 5%;
 }
 
+#descriptionBtn{
+    color: #ff3b3b;
+}
+
 #product-details-first-part{
     
     background-color: #efefef !important;
 }
 
 .product-details-tabs{
-    padding-top: 3%;
-    padding-left: 8%;
+    /* padding-top: 3%;
+    padding-left: 8%; */
+    padding: 3% 8% 0 8%;
     background-color: #efefef !important;
     color: black !important;
 }

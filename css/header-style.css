@@ -1,11 +1,16 @@
-nav{
+header div{
     padding-left: 7%;
     padding-right: 7%;
 }
 
-nav a{
+header a{
     text-decoration: none;
     color: white;
+}
+
+header a:hover{
+    text-decoration: none;
+    color: #ff3b3b;
 }
 
 #first-nav{
@@ -49,4 +54,29 @@ nav a{
     color: white;
     padding-top: 0.7%;
     padding-bottom: 0.7%;
+    margin-bottom: 1em;
+}
+
+
+#contact {
+    margin-top: 5%;
+    border-top: 1px solid white;
+    background-color: #ededed;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+#contact div {
+    height: 221px;
+}
+  
+#contact a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+footer{
+    padding-left: 7%;
+    color: white;
+    background-color: black;
 }

@@ -10,7 +10,12 @@ function showImage(imgs) {
     for (i = 0; i < x.length; i++) {
       x[i].style.display = "none";
     }
+    var x = document.getElementsByClassName("w3-bar-item");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.color = "black";
+    }
     document.getElementById(tabName).style.display = "block";
+    document.getElementById(tabName + "Btn").style.color = "#ff3b3b"
   }
 
   function openDropList() {
